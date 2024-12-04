@@ -1,8 +1,11 @@
-![Capture](https://github.com/user-attachments/assets/4f37c405-339b-4867-ad11-2a1107933f5e)
-![Capture2](https://github.com/user-attachments/assets/ee58c8b2-201e-4d0d-a9b2-f0a3dad3d8cc)
-![Capture3](https://github.com/user-attachments/assets/255400c4-ab85-46be-9c80-876aaf2ecb2d)
-![Capture4](https://github.com/user-attachments/assets/f2064d15-2a67-4a11-805d-b3febd49899e)
-![Capture5](https://github.com/user-attachments/assets/7c07ecbc-1719-4fe7-92d4-38981e888d53)
-![Capture6](https://github.com/user-attachments/assets/89c6a07f-ae1f-4951-b5ce-992dedef2dd3)
-![Capture7](https://github.com/user-attachments/assets/c78a8105-b96a-4e5e-97db-8c7ab9b9c2ae)
-![Capture8](https://github.com/user-attachments/assets/d56adfd7-1d8c-4cbd-a23b-e9ecfe02ea19)
+How to setup?
+
+Install first the latest nodejs version on your PC.
+
+1. Clone the main branch repository.
+2. Open root folder in the VS Code.
+3. Open the terminal or press ctrl + shift + ~ to open the terminal.
+4. Run this command to the terminal "npm install" to install all the packages needed.
+5. After the installation, run this command "npm run dev" or "npm run start"
+6. Access the page thru this link: http://localhost:3000/Login
+    note: you can create your own user or you can use this credential [email: guest3@email.com password: password]
