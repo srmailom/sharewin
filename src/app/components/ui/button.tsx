@@ -1,8 +1,8 @@
 interface PropTypes{
     name: string,
     className?: string,
-    event:  (event: React.MouseEvent<HTMLButtonElement>) => void|{},
-    disable: boolean
+    event?:  (event: React.MouseEvent<HTMLButtonElement>) => void|{},
+    disable?: boolean
 }
 
 export default function Button({name, className, event, disable}:PropTypes){
