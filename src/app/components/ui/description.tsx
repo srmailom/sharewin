@@ -5,7 +5,7 @@ interface PropTypes{
 
 export default function Description ({className, children}: PropTypes) {
     return (
-        <div className={`text-[30px] ${className}`}>
+        <div className={`text-[18px] text-white ${className}`}>
             {children}
         </div>
     )

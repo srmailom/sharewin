@@ -1,3 +1,5 @@
+import Description from "./description";
+
 interface PropTypes{
     value: string,
     className?: string,
@@ -5,7 +7,7 @@ interface PropTypes{
 
 export default function Label({value, className}:PropTypes) {
     return(
-        <div className={`text-[18px] my-1.5 ${className}`}>
+        <div className={`pl-2 text-[22px] pt-8  pb-4 ${className}`}>
             <label>
                 {value}
             </label>
